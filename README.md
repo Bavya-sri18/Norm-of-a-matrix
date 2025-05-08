@@ -19,17 +19,14 @@ matrix=np.array(eval(input()))
 result=np.linalg.norm(matrix,1)
 print(result)
 ```
-
 ## 2-Norm of a Matrix
 ```
 import numpy as np
 matrix=np.array(eval(input()))
 result=np.linalg.norm(matrix,2)
 print("{:.2f}".format(result))
-
 ```
 ## Infinity Norm of a Matrix
-
 ```
 import numpy as np
 matrix=np.array(eval(input()))
@@ -39,11 +36,9 @@ print(result)
 ## Output:
 ### 1-Norm of a Matrix
 ![alt text](1-norm.png)
-
 ### 2-Norm of a Matrix
 ![alt text](2-norm.png)
 ### Infinity Norm of a Matrix
 ![alt text](infinity-norm.png)
-
 ## Result
 Thus the program for 1-norm, 2-norm and Infinity norm of a matrix are written and verified.
