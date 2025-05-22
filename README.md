@@ -22,9 +22,10 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 
  
 ## Program:
-Python
+
 ### Register No: 212224230034
 ### Developed By: Bavya Sri.B
+
 ## 1-Norm of a Matrix
 ```
 import numpy as np
@@ -47,6 +48,7 @@ result=np.linalg.norm(matrix,np.inf)
 print(result)
 ```
 ## Output:
+
 ### 1-Norm of a Matrix
 ![alt text](1-norm.png)
 ### 2-Norm of a Matrix
